@@ -41,6 +41,9 @@
         "symfony/yaml": "~2.3",
         "sonata-project/intl-bundle": "~2.1"
     },
+	"replace": {
+		"sonata-project/admin-bundle": "2.3.*"
+	},
     "suggest": {
         "jms/translation-bundle": "Extract message keys from Admins",
         "sonata-project/intl-bundle": "Add localized date and number into the list"
